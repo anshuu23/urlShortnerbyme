@@ -3,9 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items:flex-start;
+            flex-direction: column;
+           
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow:0px 0px 18px 0px;
+        }
+        input{
+            margin-bottom: 23px;
+            height: 20px;
+            width: 180px;
+            
+        }
+        h1{
+            margin-bottom: 100px;
+        }
+        button{
+            box-shadow: 1px 1px 2px 1px;
+        }
+    </style>
 </head>
 <body>
-    <h1>login</h1>
+    <h1>Login</h1>
     <form action="/user/login" method="post">
         
                                   
@@ -15,7 +46,9 @@
         <label for="password">Password</label>          
         <input type="text" name="password">
 
-        <button type="submit">login</button>
+        <button type="submit">Login</button>
+
+        <p>new user? <a href="https://urlshortnerbyme-1.onrender.com/">Sign up?</a></p>
     </form>
 </body>
 </html>
