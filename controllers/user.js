@@ -10,7 +10,7 @@ function handelUserSignup(req,res){
         password
     })
     .then(()=>{
-        return res.redirect("/");
+        return res.redirect("/login");
     })
 }
 
